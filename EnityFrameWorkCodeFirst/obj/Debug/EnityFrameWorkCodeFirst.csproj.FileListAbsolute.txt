@@ -14,3 +14,4 @@ D:\LapTrinhCoSoDuLieu\EnityFrameWorkCodeFirst\EnityFrameWorkCodeFirst\obj\Debug\
 D:\LapTrinhCoSoDuLieu\EnityFrameWorkCodeFirst\EnityFrameWorkCodeFirst\obj\Debug\EnityFrameWorkCodeFirst.Migrations.ThemDuLieuVaoCate.resources
 D:\LapTrinhCoSoDuLieu\EnityFrameWorkCodeFirst\EnityFrameWorkCodeFirst\obj\Debug\EnityFrameWorkCodeFirst.FormSanPham.resources
 D:\LapTrinhCoSoDuLieu\EnityFrameWorkCodeFirst\EnityFrameWorkCodeFirst\obj\Debug\EnityFrameWorkCodeFirst.Migrations.TaoBangOrderDetail.resources
+D:\LapTrinhCoSoDuLieu\EnityFrameWorkCodeFirst\EnityFrameWorkCodeFirst\obj\Debug\EnityFrameWorkCodeFirst.Report.FormReportProduct.resources

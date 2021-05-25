@@ -1,4 +1,4 @@
-﻿namespace EnityFrameWorkCodeFirst.Report
+﻿namespace EnityFrameWorkCodeFirst
 {
     partial class FormReportProduct
     {
@@ -39,14 +39,14 @@
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1019, 509);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1284, 537);
             this.crystalReportViewer1.TabIndex = 0;
             // 
             // FormReportProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 509);
+            this.ClientSize = new System.Drawing.Size(1284, 537);
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "FormReportProduct";
             this.Text = "FormReportProduct";
@@ -56,6 +56,6 @@
 
         #endregion
 
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
+        public CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
     }
 }

@@ -55,6 +55,8 @@
             this.btThem = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dGSP = new System.Windows.Forms.DataGridView();
+            this.buttonReportCtP = new System.Windows.Forms.Button();
+            this.buttonReportCTSP = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -247,20 +249,22 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btThoat);
+            this.groupBox2.Controls.Add(this.buttonReportCTSP);
+            this.groupBox2.Controls.Add(this.buttonReportCtP);
             this.groupBox2.Controls.Add(this.btSua);
             this.groupBox2.Controls.Add(this.btXoa);
             this.groupBox2.Controls.Add(this.btThem);
-            this.groupBox2.Location = new System.Drawing.Point(533, 256);
+            this.groupBox2.Location = new System.Drawing.Point(269, 256);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(437, 102);
+            this.groupBox2.Size = new System.Drawing.Size(701, 102);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(332, 23);
+            this.btThoat.Location = new System.Drawing.Point(561, 25);
             this.btThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(100, 71);
@@ -320,6 +324,27 @@
             this.dGSP.Size = new System.Drawing.Size(874, 231);
             this.dGSP.TabIndex = 0;
             // 
+            // buttonReportCtP
+            // 
+            this.buttonReportCtP.Location = new System.Drawing.Point(347, 25);
+            this.buttonReportCtP.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonReportCtP.Name = "buttonReportCtP";
+            this.buttonReportCtP.Size = new System.Drawing.Size(100, 71);
+            this.buttonReportCtP.TabIndex = 2;
+            this.buttonReportCtP.Text = "ReportSanPham";
+            this.buttonReportCtP.UseVisualStyleBackColor = true;
+            this.buttonReportCtP.Click += new System.EventHandler(this.buttonReportCtP_Click);
+            // 
+            // buttonReportCTSP
+            // 
+            this.buttonReportCTSP.Location = new System.Drawing.Point(453, 23);
+            this.buttonReportCTSP.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonReportCTSP.Name = "buttonReportCTSP";
+            this.buttonReportCTSP.Size = new System.Drawing.Size(100, 71);
+            this.buttonReportCTSP.TabIndex = 2;
+            this.buttonReportCTSP.Text = "ReportCTSP";
+            this.buttonReportCTSP.UseVisualStyleBackColor = true;
+            // 
             // FormSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -375,5 +400,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMoTa;
         private System.Windows.Forms.DataGridView dGSP;
+        private System.Windows.Forms.Button buttonReportCTSP;
+        private System.Windows.Forms.Button buttonReportCtP;
     }
 }

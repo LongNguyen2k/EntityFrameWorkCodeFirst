@@ -47,5 +47,14 @@ namespace EnityFrameWorkCodeFirst.BUS
                 throw;
             }
         }
+
+
+        public List<Product> LayDSSanPhamCTP()
+        {
+            // xu ly them cac quy trinh neu co 
+
+
+            return daoSP.LayDSSanPhamCtp();
+        }
     }
 }

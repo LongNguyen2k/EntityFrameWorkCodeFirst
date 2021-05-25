@@ -31,6 +31,12 @@ namespace EnityFrameWorkCodeFirst.DAO
 
             return ds.ToList();
         }
+        public List<Product> LayDSSanPhamCtp()
+        {
+            var ds =  db.Products.Select(s => s);
+
+            return ds.ToList();
+        }
 
        
 

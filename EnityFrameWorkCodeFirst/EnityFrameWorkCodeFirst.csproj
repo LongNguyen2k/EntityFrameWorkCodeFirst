@@ -75,6 +75,12 @@
     <Compile Include="ApplicationDBContext.cs" />
     <Compile Include="BUS\BUS_SANPHAM.cs" />
     <Compile Include="DAO\DAO_SANPHAM.cs" />
+    <Compile Include="FormReportProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportProduct.Designer.cs">
+      <DependentUpon>FormReportProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,18 +111,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QuanLyBanHangTTDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FormReportProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormReportProduct.Designer.cs">
-      <DependentUpon>FormReportProduct.cs</DependentUpon>
-    </Compile>
     <Compile Include="Report\ctpProduct.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ctpProduct.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="FormReportProduct.resx">
+      <DependentUpon>FormReportProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormSanPham.resx">
       <DependentUpon>FormSanPham.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,9 +141,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormReportProduct.resx">
-      <DependentUpon>FormReportProduct.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Report\ctpProduct.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>ctpProduct.cs</LastGenOutput>

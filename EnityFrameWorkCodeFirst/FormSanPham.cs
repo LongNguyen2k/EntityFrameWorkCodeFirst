@@ -1,5 +1,6 @@
 ﻿using EnityFrameWorkCodeFirst.BUS;
 using EnityFrameWorkCodeFirst.Model;
+using EnityFrameWorkCodeFirst.Report;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,6 +63,18 @@ namespace EnityFrameWorkCodeFirst
             txtDonGia.Text = txtTenSP.Text = txtMoTa.Text = "";
             cbLoaiSP.SelectedIndex = 0;
 
+        }
+
+        private void buttonReportCtP_Click(object sender, EventArgs e)
+        {
+            // gọi form crystal report lay du lieu 
+            ctpProduct c = new ctpProduct();
+
+
+            // gọi form  report 
+            FormReportProduct f = new FormReportProduct();
+            f.crystalReportViewer1.ReportSource = c;
+            f.ShowDialog();
         }
     }
 }
